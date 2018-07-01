@@ -1,0 +1,46 @@
+body {
+    background-color: #123;
+}
+.head {
+    background-color: #D72E2E;
+    height: 100px;
+  padding-top: 10px;
+    
+}
+
+.head h1 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+ .image {
+    background-image: url("img/currency.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+ }
+
+.main {
+    margin-top: 100px;
+    /*background-color: #D72E2E;*/
+    min-height: 200px;
+    color: white;
+}
+
+.stone {
+    margin-left: 350px;
+    margin-top: 50px;
+
+}
+.row {
+    padding: 10px;
+}
+
+.presh {
+  padding: 0.04rem;
+  margin: 0.5rem;
+}
+
+.ree {
+  margin-left: -0.8rem;
+}

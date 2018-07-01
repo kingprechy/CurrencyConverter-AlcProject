@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Currency Converter</title>  
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">  
+</head>
+<body onload="loadCurrencies()">
+    <div class="head">
+            <h1>Simple Currency Converter</h1>
+    </div>
+    <div class="image"> </div>
+    <div class="container main">
+        <div class="col-md-offset-4 col-md-4 stone">
+            <h3>Do Your Conversions Here</h3>
+            <div class="row header">
+                    Currency Converter
+            </div>
+            <div class="row">
+                <div class="col-md-2">Amount: </div>
+                <div class="col-md-10">
+                        <input type="text" class="presh" id="amount"> 
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-md-2">From:</div>
+                    <div class="col-md-4"><select onchange="currencyConverter()" id="from"></select></div>
+                    <div class="col-md-2">From:</div>
+                    <div class="col-md-4"><select onchange="currencyConverter()" id="to"></select></div>
+            </div>
+            <div class="row">
+                    result : <span id="result"></span>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="currencies.js"></script>
+</body>
